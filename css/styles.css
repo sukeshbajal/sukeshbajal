@@ -1,0 +1,262 @@
+.everything{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    color: #D4D3D9;
+}
+
+.intro-image{
+    width: 60%;
+}
+
+.spacer{
+    margin-top: 8%;
+}
+
+.section-spacer{
+    margin-top: 8%;
+}
+
+.intro-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 72px;
+    color: #F96166;
+}
+
+.intro-body{
+    font-size: 26px;
+    color: #4A4D52;
+}
+
+.intro-text{
+    margin-top: 15%;
+    text-align: right;
+    margin-right: 10%;
+}
+
+.navbar-default{
+    background-color: #ffffff !important;
+    border-color: #ffffff !important;
+}
+
+.all-headings{
+    color: #212121;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+}
+
+.proj-headings{
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+}
+
+.all-subheadings{
+    color: #3F3F3F;
+    font-size: 16px;
+}
+
+.proj-subheadings{
+    color: #6D6D6D;
+    font-size: 16px;
+}
+
+.cross-pattern{
+    background-image: url(../images/cross-pattern.png);
+}
+
+.footer-image{
+    height: 14px;
+}
+
+.footer{
+    background: #212121;
+    text-align: center;
+    padding: 10px;
+}
+
+.contact-form div{
+    margin: 20px;
+}
+
+.footer-image:hover{
+    -webkit-filter: opacity(.75);
+    filter: opacity(.75);
+}
+
+.section-intro{
+    padding-top: 50px;
+}
+
+.section-body{
+    padding-bottom: 100px;
+}
+
+.btn-send{
+    background-color: #F96166;
+    color: #ffffff;
+}
+
+.btn-send:hover{
+    background-color: #AD1F2A;
+    color: #ffffff !important;
+}
+
+.projects-section{
+    background-color: #212121;
+}
+
+.project-cards{
+    margin-top: 50px;
+    padding: 10px;
+    margin-bottom: 80px;
+}
+
+.project-cards a:hover{
+    text-decoration: none;
+}
+
+.card{
+    
+}
+
+.project:hover, .project:focus {
+    transform: scale(1.2);
+    box-shadow: 2px 2px 5px #161616;
+}
+
+.project{
+    width: 200px;
+    height: 250px;
+    border-radius: 5px;
+    display: inline-block;
+    transition: all 2s;
+}
+
+.project-title{
+    position: relative;
+    left: 15%;
+    top: -220px;
+    background-color: #ffffff;
+    padding: 2px;
+    color: #212121;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 12px;
+    z-index: 99;
+}
+
+.project-about{
+    font-size: 14px;
+    position: relative;
+    top: -45px;
+    left: 40%;
+    background-color: #000000;
+    padding: 2px;
+    display: inline-block;
+}
+
+.project-1{
+    background: url(../images/projects/project-1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.project-2{
+    background: url(../images/projects/project-2.jpg);
+    background-size: cover;
+}
+
+.project-3{
+    background: url(../images/projects/project-3.jpg);
+    background-size: cover;
+}
+
+.project-4{
+    background: url(../images/projects/project-4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+@media screen and (max-width: 980px){
+    
+    #navbar-top{
+        display: none;
+    }
+    
+    .spacer{
+        margin-top: 4%;
+    }
+    
+    .intro-image{
+        margin-top: 5%;
+        margin-left: 4%;
+        width: 90%;
+    }
+    
+    .intro-text{
+        margin-top: 0%;
+        text-align: center;
+        margin-right: 0%;
+    }
+    
+    .intro-body{
+        font-size: 18px;
+        color: #C9C9C9;
+    }
+    
+}
+
+@media screen and (max-width: 736px){
+    
+    #sukesh-logo{
+        display: none;
+    }
+    
+    .spacer{
+        margin-top: -30px;
+    }
+    
+    .intro-image{
+        margin-top: 5%;
+        margin-left: 4%;
+        width: 90%;
+    }
+    
+    .intro-text{
+        margin-top: 0%;
+        text-align: center;
+        margin-right: 0%;
+    }
+    
+    .intro-body{
+        font-size: 18px;
+        color: #4A4D52;
+    }
+    
+    .navbar-toggle{
+        margin-right: -20px !important;
+        margin-bottom: 0px !important;
+        margin-top: 30px !important;
+        z-index: 99;
+    }
+    
+    .navbar-collapse{
+        border-color: #ffffff !important;
+        text-align: center !important;
+        background: #DDDDDD;
+    }
+    
+    .mini-spacer{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    
+}
+
+@media all and (max-width: 1690px) { ...}
+@media all and (max-width: 1280px) { ...}
+@media all and (max-width: 980px) { ... }
+@media all and (max-width: 736px) { ... }
+@media all and (max-width: 480px) { ... }
