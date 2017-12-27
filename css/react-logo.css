@@ -8,8 +8,6 @@
     top:-500px;
     left: 5%;
     zoom: 0.2;
-    -ms-zoom: 0.2;
-    -webkit-zoom: 0.2;
     -moz-transform:  scale(0.2,0.2);
     -moz-transform-origin: left 500px;
   
