@@ -1,9 +1,9 @@
-.react-logo{
+#react-logo{
     position: relative;
    
 }
 
-.moving-logo{
+#moving-logo{
     position:absolute;
     top:-500px;
     left: 5%;
